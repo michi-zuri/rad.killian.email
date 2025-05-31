@@ -122,7 +122,7 @@ view author =
                     , Attrs.attribute "decoding" "async"
                     , Attrs.attribute "data-nimg" "1"
                     , Attrs.class "h-48 w-48 rounded-full"
-                    , Attrs.src "/images/authors/default.png"
+                    , Attrs.src <| Maybe.withDefault "/images/authors/default.png" author.avatar
                     , Attrs.style "color" "transparent"
                     ]
                     []
