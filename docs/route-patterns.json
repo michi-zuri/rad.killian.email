@@ -1,0 +1,1 @@
+[{"kind":"prerender","pathPattern":"/blog/:slug"},{"kind":"prerender","pathPattern":"/tags/:slug"},{"kind":"static","pathPattern":"/about"},{"kind":"static","pathPattern":"/blog"},{"kind":"static","pathPattern":"/tags"},{"kind":"static","pathPattern":"/"}]
